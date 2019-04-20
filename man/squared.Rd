@@ -17,4 +17,5 @@ Square numbers
 }
 \examples{
 squared(5)
+
 }
