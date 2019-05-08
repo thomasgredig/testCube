@@ -1,5 +1,6 @@
 library(testthat)
 library(testCube)
 
-cubed(3) == 27
-squared(-5) == 25
+test_check("testCube")
+
+# usethis::use_test("name")
