@@ -14,7 +14,7 @@ Usually for an R package the (GPL-3)[https://www.gnu.org/licenses/gpl.html] is c
 ```R
 # install.packages("usethis")
 library(usethis)
-use_mit_license("My Name")
+use_gpl3_license(name = 'testCube')
 use_readme_md()
 ```
 
