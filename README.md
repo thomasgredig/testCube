@@ -7,6 +7,19 @@ This package was solely developed to understand the `R Packaging` functionality.
 
 The roxygen2 is used to generate the `NAMESPACE` and helping documents. Including the meta-data in the R files, then using the `Build->Document` to create the necessary files is more straightforward.
 
+## Licenses
+
+Usually for an R package the (GPL-3)[https://www.gnu.org/licenses/gpl.html] is chosen.
+
+```R
+# install.packages("usethis")
+library(usethis)
+use_mit_license("My Name")
+use_readme_md()
+```
+
+For more information see (testThat)[https://usethis.r-lib.org/].
+
 ## Installation
 
 ```R
