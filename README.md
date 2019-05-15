@@ -18,6 +18,18 @@ use_gpl3_license(name = 'testCube')
 use_readme_md()
 ```
 
+Next install the documentation using (RoxyGen2)[https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html]
+
+```r
+devtools::document()
+```
+
+Also install a testing environment:
+
+```r
+usethis::use_test("testCube")
+```
+
 For more information see (testThat)[https://usethis.r-lib.org/].
 
 ## Installation
